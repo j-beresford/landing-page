@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<script>
+  function output() {
+    let inps = document.getElementById("uname").value
+    let pwd = document.getElementById("psw").value
+
+    if (inps == "mwsp" && pwd=="whaleshark"){
+      window.location = "http://dash.justinberesford.com/mwsp"
+    }
+  }
+</script>
+
+<body>
+
+    <div class="topnav">
+        <a href="index.html">Justin Beresford</a>
+        <div class="topright">
+        <a class="active" href="login.html">Login</a>
+        <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+<div class = "heading">
+    <h2>Freelance Data Scientist</h2>
+    <p>Collection, Visualisation, Analysis</p>
+</div>
+
+<main class = "logform">
+  <label for="uname"><b>Org name:</b></label>
+  <input type="text" placeholder="Enter org name" id="uname" required>
+  <br>
+  <label for="psw"><b>Password:</b></label>
+  <input type="password" placeholder="Enter password" id="psw" required>
+  <br><br>
+  <input class="btn" type="submit" onclick="output()">
+
+</main>
+
+<section class="footer">
+  <p>&copy; Justin Beresford 2022</p>
+</section>
+  
+</body>
+</html>
