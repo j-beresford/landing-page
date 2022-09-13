@@ -12,12 +12,13 @@ html, body {
 
 
   .topnav {
-    overflow: hidden;
+    display: flex;
     background-color: #333;
+    justify-content: space-between;
   }
 
   .topright {
-    float: right;
+    display: flex
   }
   
   .topnav a {
@@ -46,7 +47,7 @@ html, body {
 
   .contact-main{
     user-select: none;
-    color: #333;
+    color: slategray;
     padding: 10px;
     margin: 10px;
     flex: 1 0 auto;
