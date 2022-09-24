@@ -1,17 +1,16 @@
-html, body {
+  html, body {
     height: 100%;
   }
-
+  
   body {
     display: flex;
     flex-direction: column;
-    margin: 0;
     height: 100%;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-
-  .topnav {
+   .topnav {
     display: flex;
     background-color: #333;
     justify-content: space-between;
@@ -41,8 +40,10 @@ html, body {
   }
   
   .heading{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: #333;
+    background-image: url("https://www.sigarch.org/wp-content/uploads/2020/12/AdobeStock_292765771-1080x675.jpeg");
   }
 
   .contact-main{
@@ -54,7 +55,7 @@ html, body {
   }
 
   .contact{
-    background-color: lightgrey;
+    background-color: rgb(235, 231, 231);
     padding: 10px;
   }
   .logform{
@@ -64,6 +65,23 @@ html, body {
   flex: 1 0 auto;
   }
 
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: normal;
+    flex-grow: 1 0 auto;
+  }
+
+  .flex-container div {
+    background-color:rgb(235, 231, 231);
+    padding: 10px;
+    margin: 10px;
+    flex:33%;
+    display: flex;
+    flex-direction: column;
+  }
+
   .btn {
     background-color: cornflowerblue;
     border: none;
@@ -71,28 +89,37 @@ html, body {
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    margin-top: auto;
+    align-self: center;
+    }
+ 
+  .about-text{
+
+    padding: 30px;
+    text-align: center;
+    align-self: center;
+    }
+
+  .main{
+    height: 100%;
   }
 
-  .flex-container{
-    align-items: stretch;
-    flex-grow: 1 0 auto;
-    margin-bottom: auto;
-  }
-
-  .flex-container div {
-    background-color:darkgrey;
-    padding: 10px;
-    margin: 10px;
-  }
+    .pics{
+      height: 100px;
+    }
 
   .footer {
      flex-shrink: 0;
-     width: 100%;
      padding: 10px;
      background-color: cornflowerblue;
      color: white;
      text-align: center;
   }
   
+
+  @media (max-width: 700px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }

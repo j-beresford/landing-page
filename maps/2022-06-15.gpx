@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:geotracker="http://ilyabogdanovich.com/gpx/extensions/geotracker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" creator="Geo Tracker 5.1.5.2972 for Android by Ilya Bogdanovich">
+  <metadata>
+    <name>14 Jun 2022 21:35:45</name>
+    <author>
+      <name>Recorded in Geo Tracker for Android from Ilya Bogdanovich</name>
+      <link href="https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker" />
+    </author>
+    <link href="https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker" />
+    <time>2022-06-14T20:35:45.164Z</time>
+  </metadata>
+  <trk>
+    <name>14 Jun 2022 21:35:45</name>
+    <src>Recorded in Geo Tracker for Android from Ilya Bogdanovich</src>
+    <link href="https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker" />
+    <extensions>
+      <geotracker:meta>
+        <length>15.63</length>
+        <duration>196643</duration>
+        <creationtime>2022-06-14T20:35:45.164Z</creationtime>
+        <activity>0</activity>
+      </geotracker:meta>
+    </extensions>
+    <trkseg>
+      <trkpt lat="51.35291297" lon="-0.25783073">
+        <ele>95.47</ele>
+        <time>2022-06-14T20:35:45Z</time>
+        <extensions>
+          <geotracker:meta s="0" />
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.35286471" lon="-0.25768071">
+        <ele>84.28</ele>
+        <time>2022-06-14T20:36:37Z</time>
+        <extensions>
+          <geotracker:meta c="1.55" s="0.58" />
+        </extensions>
+      </trkpt>
+      <trkpt lat="51.35287074" lon="-0.2577356">
+        <ele>77.55</ele>
+        <time>2022-06-14T20:38:38Z</time>
+        <extensions>
+          <geotracker:meta s="0" />
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
